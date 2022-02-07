@@ -31,12 +31,16 @@
   },
   "homepage": "https://github.com/riboney/Quizzer-DiscordClient#readme",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest": "^27.5.0",
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1"
